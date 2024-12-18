@@ -1,0 +1,123 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "EB Garamond"
+
+}
+
+body{
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/1323712/pexels-photo-1323712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size:cover ;
+    background-position: center;
+}
+
+li {
+list-style: none;
+
+}
+
+a {
+    text-decoration: none;  
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+
+a:hover{
+    color: rgb(236, 137, 137);
+}
+
+header{
+    position:relative ;
+    padding: 0 2rem;
+    background-color:rgba(116, 10, 10, 0.822); ;
+}
+
+.Navigation{
+    width: 100%;
+    max-width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Navigation .logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.Navigation .Barre-de-navigation{
+    display: flex;
+    gap: 2rem;
+}
+
+.Navigation .Traits_Bouton{
+    color:white ;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.Bouton{
+    display: flex;
+    gap: 10px;
+}
+
+.action-bouton{
+    background-color: rgb(204, 1, 1);
+    color: rgb(255, 255, 255);
+    border: 1px solid  brown;
+    padding: 0.5rem 1.2rem;
+    border-radius: 5px;
+    outline: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.action-bouton:hover{
+    color: white;
+    border: 1px solid white
+}
+
+.panier{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white
+}
+
+.panier:hover{
+    background-color: white;
+    color: black;
+}
+
+.Titre{
+    font-size:x-large;
+    font-weight: bold;
+    font-family: "Cinzel";
+    position: absolute;
+    right: 225px;
+    top: 50%;
+    
+    text-align: center;
+    }
+
+.Titre-slogan{
+    font-size: x-large;
+    height: 80px;
+}
+
+
+.Information{
+    color: black;
+    font-weight: bold; 
+    font-size: 25px;
+    right: 55px;
+    position: absolute;
+    bottom: 55px;
+}
